@@ -58,7 +58,7 @@
 
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="mysql" alt="mysql" width="40" height="40"/>&nbsp
-  <img src="https://expertvc.ru/images/solo/postgresql.png" title="postgresql" alt="postgresql" width="40" height="40"/>&nbsp
+  <img src="https://data.world/api/datadotworld-apps/dataset/postgresql/file/raw/logo.png" title="postgresql" alt="postgresql" width="40" height="40"/>&nbsp
 </div>
 
 ---
