@@ -72,18 +72,18 @@
 ### ✏️ Работа с кодом:
 
 <div>
-    <a href="https://jetbrains.com/idea/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/intellij.png" alt="Intelij_IDEA" width="60" height="60"/> </a>&nbsp 
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" alt="git" width="40" height="40"/>&nbsp
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1024px-Bash_Logo_Colored.svg.png?20180723054350" title="bash" alt="bash" width="40" height="40"/>&nbsp
-  <img src="https://gitlab.com/uploads/-/system/group/avatar/10532272/github.png" title="github" alt="github" width="40" height="40"/>&nbsp
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" title="python" alt="python" width="40" height="40"/>&nbsp
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="vscode" alt="vscode" width="40" height="40"/>&nbsp
-  <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/intellij_pycharm_macos_bigsur_icon_190055.png" title="pycharm" alt="pycharm" width="40" height="40"/>&nbsp
-  <img src="https://www.fita.in/includes/assets/img/selenium/selenium-tutorial-01.jpg" title="selenium" alt="selenium" width="60" height="40"/>&nbsp
-  <img src="https://img.icons8.com/fluent/600/000000/spyder-ide-5.png" title="spyder" alt="spyder" width="40" height="40"/>&nbsp
-  <img src="https://migsoft.ru/upload/iblock/a2c/a2c70a20a0508cd9adbae262e85f32fb.jpg" title="sublime" alt="sublime" width="40" height="40"/>&nbsp
-  
-  
+  <a href="https://jetbrains.com/idea/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/intellij.png" alt="Intelij_IDEA" width="60" height="60"/></a>&nbsp
+  <a href="https://www.oracle.com/java/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/java.png" alt="Java" width="60" height="60"/></a>&nbsp
+ <a href="https://junit.org/junit5/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/junit.png" alt="JUnit5" width="60" height="60"/></a>&nbsp
+  <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/selenium.png" alt="Selenium" width="60" height="60"/></a>&nbsp
+  <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" width="60" height="60"/></a>&nbsp
+  <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" width="60" height="60"/></a>&nbsp
+  <a href="https://gitscripts.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bash.png" alt="Bash" width="60" height="60"/></a>&nbsp
+  <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pycharm.png" alt="PyCharm" width="60" height="60"/></a>&nbsp
+  <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="Visual_Studio_Code" width="60" height="60"/></a>&nbsp
+  <a href="https://www.spyder-ide.org/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/spyder.png" alt="Spyder" width="60" height="60"/></a>&nbsp
+  <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" width="60" height="60"/></a>&nbsp
+  <a href="https://www.sublimetext.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sublime_text.png" alt="Sublime_Text" width="60" height="60"/></a>&nbsp
 </div>
 
 ---
