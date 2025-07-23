@@ -74,8 +74,8 @@
  <a href="https://junit.org/junit5/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/junit.png" alt="JUnit5" width="60" height="60"/></a>&nbsp
   <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/selenium.png" alt="Selenium" width="60" height="60"/></a>&nbsp
   <a href="https://github.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" width="60" height="60"/></a>&nbsp
-   <a href="https://docs.github.com/en/actions" target="_blank"> <img src="https://i.ytimg.com/vi/x3GCVNKEHMI/maxresdefault.jpg" alt="GitHub_Actions" width="60" height="80"/></a>&nbsp
-   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://s3.eu-west-1.amazonaws.com/matrix.assets/cbnapp7fuq7flsqwoc9gn8hpo7ql" alt="Allure_Report" width="60" height="80"/></a>&nbsp
+   <a href="https://docs.github.com/en/actions" target="_blank"> <img src="https://i.ytimg.com/vi/x3GCVNKEHMI/maxresdefault.jpg" alt="GitHub_Actions" width="60" height="100"/></a>&nbsp
+   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://s3.eu-west-1.amazonaws.com/matrix.assets/cbnapp7fuq7flsqwoc9gn8hpo7ql" alt="Allure_Report" width="60" height="100"/></a>&nbsp
   <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" width="60" height="60"/></a>&nbsp
   <a href="https://gitscripts.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bash.png" alt="Bash" width="60" height="60"/></a>&nbsp
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pycharm.png" alt="PyCharm" width="60" height="60"/></a>&nbsp
