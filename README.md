@@ -72,7 +72,7 @@
 ### ✏️ Работа с кодом:
 
 <div>
-    [<img src="images/logo/Intelij_IDEA.svg" alt="Intelij IDEA" width="60" height="60">](https://jetbrains.com/idea/)&nbsp 
+    <a href="https://jetbrains.com/idea/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/intellij.png" alt="Intelij_IDEA" width="60" height="60"/> </a>&nbsp 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" alt="git" width="40" height="40"/>&nbsp
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1024px-Bash_Logo_Colored.svg.png?20180723054350" title="bash" alt="bash" width="40" height="40"/>&nbsp
   <img src="https://gitlab.com/uploads/-/system/group/avatar/10532272/github.png" title="github" alt="github" width="40" height="40"/>&nbsp
