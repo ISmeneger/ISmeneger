@@ -7,7 +7,7 @@
 <ul>
 <li>В 2025 году закончил <a href="https://topsycreed.github.io/free-java-automation-course/" target="_blank">авторский курс</a> по автоматизации тестирования на Java от 
   <a href="https://t.me/chursovQA" target="_blank">Геннадия Чурсова</a>. 
-  <a href="https://github.com/chursov" target="_blank">GitHub-репозиторий автора</a>. 
+  <a href="https://github.com/topsycreed" target="_blank">GitHub-репозиторий автора</a>. 
    В рамках курса выполнил <a href="https://github.com/ISmeneger/American_Eagle_java_automation" target="_blank">выпускную квалификационную работу</a> (ВКР) — автоматизированное тестирование сайта 
   <a href="https://www.ae.com" target="_blank">American Eagle</a>.
 </li>
