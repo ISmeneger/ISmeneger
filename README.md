@@ -44,9 +44,7 @@
 
 <div>
   <a href="https://www.atlassian.com/software/jira" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jira.png" alt="Jira" width="60" height="60"/></a>&nbsp
-   <a href="https://www.jetbrains.com/ru-ru/youtrack/" target="_blank">
-  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.png" alt="YouTrack" width="60" height="60"/>
-</a>&nbsp
+   <a href="https://www.jetbrains.com/youtrack/" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.png" alt="YouTrack" width="60" height="60"/></a>&nbsp
 </div>
 
 ---
@@ -77,7 +75,7 @@
   <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/selenium.png" alt="Selenium" width="60" height="60"/></a>&nbsp
   <a href="https://github.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" width="60" height="60"/></a>&nbsp
    <a href="https://docs.github.com/en/actions" target="_blank"> <img src="https://i.ytimg.com/vi/x3GCVNKEHMI/maxresdefault.jpg" alt="GitHub_Actions" width="100" height="60"/></a>&nbsp
-   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://allurereport.org/public/img/allure-report.svg?utm_source=chatgpt.com" alt="Allure_Report" width="60" height="100"/></a>&nbsp
+   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://allurereport.org/public/img/allure-report.svg?utm_source=chatgpt.com" alt="Allure_Report" width="60" height="60"/></a>&nbsp
   <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" width="60" height="60"/></a>&nbsp
   <a href="https://gitscripts.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bash.png" alt="Bash" width="60" height="60"/></a>&nbsp
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pycharm.png" alt="PyCharm" width="60" height="60"/></a>&nbsp
