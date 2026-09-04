@@ -44,7 +44,7 @@
 
 <div>
   <a href="https://www.atlassian.com/software/jira" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jira.png" alt="Jira" width="60" height="60"/></a>&nbsp
-   <a href="https://www.jetbrains.com/ru-ru/youtrack/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/YouTrack_Icon.svg/1024px-YouTrack_Icon.svg.png?20200803082248" alt="Youtrack" width="60" height="60"/></a>&nbsp
+   <a href="https://www.jetbrains.com/ru-ru/youtrack/" target="_blank"> <img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/YouTrack_Icon.svg/1024px-YouTrack_Icon.svg.png?20200803082248](https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.png?utm_source=chatgpt.com)" alt="Youtrack" width="60" height="60"/></a>&nbsp
 </div>
 
 ---
@@ -75,7 +75,7 @@
   <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/selenium.png" alt="Selenium" width="60" height="60"/></a>&nbsp
   <a href="https://github.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" width="60" height="60"/></a>&nbsp
    <a href="https://docs.github.com/en/actions" target="_blank"> <img src="https://i.ytimg.com/vi/x3GCVNKEHMI/maxresdefault.jpg" alt="GitHub_Actions" width="100" height="60"/></a>&nbsp
-   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://camo.githubusercontent.com/92c52c9dec4499ae3589fa3ed6bf380536ff082a9e1a6e1683b290ea3e08a19d/68747470733a2f2f73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f6d61747269782e6173736574732f376436697574347a6a777a74726f6b7a7572316f6265386a6b767677" alt="Allure_Report" width="60" height="100"/></a>&nbsp
+   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="[https://camo.githubusercontent.com/92c52c9dec4499ae3589fa3ed6bf380536ff082a9e1a6e1683b290ea3e08a19d/68747470733a2f2f73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f6d61747269782e6173736574732f376436697574347a6a777a74726f6b7a7572316f6265386a6b767677](https://github.com/allure-framework/allure3/raw/main/docs/.vitepress/public/images/allure-logo.svg?utm_source=chatgpt.com)" alt="Allure_Report" width="60" height="100"/></a>&nbsp
   <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" width="60" height="60"/></a>&nbsp
   <a href="https://gitscripts.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bash.png" alt="Bash" width="60" height="60"/></a>&nbsp
   <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pycharm.png" alt="PyCharm" width="60" height="60"/></a>&nbsp
