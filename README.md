@@ -1,89 +1,73 @@
-# Всем привет, меня зовут Илья!
+# Илья Сидорычев | QA Automation Engineer — Java / Python
 
----
+Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — два проекта для действующего интернет-магазина American Eagle: тестовые фреймворки, API-сценарии, автоматический запуск в GitHub Actions и публикация Allure Report.
 
-### 👨‍💻 Обо мне:
+Ищу первую работу **Junior QA / Automation QA Engineer**. Санкт-Петербург · рассматриваю удалённый, офисный и гибридный формат, а также стажировку.
 
-<ul>
-<li>В 2025 году закончил <a href="https://topsycreed.github.io/free-java-automation-course/" target="_blank">авторский курс</a> по автоматизации тестирования на Java от 
-  <a href="https://t.me/chursovQA" target="_blank">Геннадия Чурсова</a>. 
-  <a href="https://github.com/topsycreed" target="_blank">GitHub-репозиторий автора</a>. 
-   В рамках курса выполнил <a href="https://github.com/ISmeneger/American_Eagle_java_automation" target="_blank">выпускную квалификационную работу</a> (ВКР) — автоматизированное тестирование сайта 
-  <a href="https://www.ae.com" target="_blank">American Eagle</a>.
-</li>
-<li>2024 г. -  закончил курсы тестировщиков в ИТМО в г. Санкт-Петербурге (ручное + автоматизированное тестирование ПО на языке Python). Также дополнительно прошел курсы по ручному и автоматизированному теситрованию на платформе Stepik.</li>
-</li>
-<li>2023 г. - прошёл обучение по программе повышения квалификации «Анализ данных как основа цифровой трансформации процессов управления организацией», ООО «Национальный институт сертификации и оценки качества», г. Москва. (В процессе обучения изучил SQL (PostgreSQL, MySQL)).</li>
+**[Telegram](https://t.me/Ilya_S_1985)** · **[Email](mailto:ISmeneger@yandex.ru)** · **[Хабр Карьера](https://career.habr.com/ismeneger)**
 
-<li>2022 г. - прошел профессиональную переподготовку по программе «Процедурно-ориентированное программирование в прикладных задачах анализа данных в экономике», ФГБОУ ВО «Российский экономический университет имени Г.В. Плеханова». Получил диплом о профессиональной переподготовке с правом на ведение профессиональной деятельности в сфере программирования на языке Python для решения задач бизнес-анализа.</li> 
+## Основные проекты
 
-<li>2010 г. - завершил обучение в ГОУ ВПО «Ивановский государственный энергетический университет имени В.И. Ленина». Квалификация: Менеджер.</li>
+### [American Eagle — Java UI & API Automation](https://github.com/ISmeneger/American_Eagle_java_automation)
 
-<li>2009 г. - завершил обучение в ГОУ ВПО «Ивановский государственный энергетический университет имени В.И. Ленина». Квалификация: Инженер.</li></ul>
+**Java 21 · JUnit 5 · Selenium WebDriver · REST Assured · Gradle · Allure · GitHub Actions**
 
-Предлагаю Вашему вниманию часть моих работ по автоматизации тестирования, которые я выполнял самостоятельно во время обучения на курсах. Мне очень интересно заниматься автоматизацией в тестировании в IDE PyCharm (Selenium, Pytest), IntelliJ IDEA (Selenium, JUnit5, TestNG) и тестированием API (Postman). Также есть примеры оформления тестовой документации. Основной домен - тестирование веб-приложений (front + back). 
+Проект начался как выпускная работа по Java AQA и затем был существенно расширен самостоятельно.
 
+- **API:** Token, Browse, Inventory, Bag; позитивные и негативные проверки авторизации; E2E-сценарий добавления, изменения и удаления товара в корзине.
+- **Архитектура:** Page Objects, Components и Steps для UI; Controllers и DTO для API; JUnit 5 Extensions, Owner, AssertJ.
+- **Инженерные решения:** динамический выбор доступных товаров и SKU; Awaitility для ожидания обновления состояния API; обработка региональных и маркетинговых окон; отдельная обработка известного дефекта через `KnownDefectExtension`.
+- **CI и отчётность:** отдельные API/UI jobs, Selenium Standalone Chrome для удалённого запуска, GitHub Secrets, сохранение артефактов и объединение результатов в Allure Report с историей.
 
+**[Код и инструкция запуска](https://github.com/ISmeneger/American_Eagle_java_automation)** · **[CI-запуски](https://github.com/ISmeneger/American_Eagle_java_automation/actions)** · **[Allure Report](https://ismeneger.github.io/American_Eagle_java_automation/)**
 
-- 📫 Как связаться со мной: ISmeneger@yandex.ru, +7(901)286-40-78.
+### [American Eagle — Python UI & API Automation](https://github.com/ISmeneger/American_Eagle_python_automation)
 
+**Python 3.12 · Pytest · Selenium WebDriver · Requests · Allure · GitHub Actions**
 
----
-### 🤝 Социальные сети:
+Самостоятельный проект вне учебной программы: реализовал автоматизацию того же продукта на Python, адаптировав архитектуру и управление тестовыми данными под Pytest.
 
-  <div id="badges">
-      <a href="https://t.me/Ilya_S_1985" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="60" height="60" alt="telegram" />
-    </a>
-  </div>
+- **API:** отдельные клиенты для Token, Browse, Inventory и Bag; позитивные и негативные сценарии; проверка жизненного цикла корзины и нескольких разных товаров.
+- **UI:** поиск, каталог, фильтрация, сортировка, формы и корзина; проверка цены товара, количества и итоговой стоимости.
+- **Инженерные решения:** fixtures для подготовки и очистки состояния; динамические данные; explicit waits и повторное получение элементов после изменения DOM; `Decimal` для проверки цен.
+- **CI и отчётность:** независимые API/UI jobs, headless Chrome, GitHub Secrets, единый Allure Report с историей и диагностическими вложениями для UI-падений.
 
----
+**[Код и инструкция запуска](https://github.com/ISmeneger/American_Eagle_python_automation)** · **[CI-запуски](https://github.com/ISmeneger/American_Eagle_python_automation/actions)** · **[Allure Report](https://ismeneger.github.io/American_Eagle_python_automation/)**
 
+В обоих проектах есть тест-планы и описание ограничений внешнего сайта. Сценарии, заблокированные anti-bot-защитой, и известные дефекты отмечены отдельно. Актуальные результаты запусков доступны в CI и Allure.
 
-### 📁 Тестовая документация:
+## Практические навыки
 
-<div>
-  <a href="https://www.atlassian.com/software/jira" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/jira.png" alt="Jira" width="60" height="60"/></a>&nbsp
-   <a href="https://www.jetbrains.com/youtrack/" target="_blank"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/YouTrack_icon.png" alt="YouTrack" width="60" height="60"/></a>&nbsp
-</div>
+| Направление | Инструменты и подходы |
+|---|---|
+| Java AQA | Java, JUnit 5, REST Assured, Selenium, Gradle, AssertJ, Awaitility |
+| Python AQA | Python, Pytest, Requests, Selenium, fixtures, markers |
+| REST API | HTTP, Bearer token, позитивные и негативные проверки, E2E-сценарии, Postman |
+| Архитектура тестов | Page Object Model, Components, Steps, API clients / Controllers, DTO |
+| CI/CD и отчётность | GitHub Actions: запуск тестов, артефакты, Secrets; Allure Report, публикация отчётов через GitHub Pages |
+| Данные и документация | SQL: PostgreSQL / MySQL; тест-планы, тест-кейсы, баг-репорты |
+| Разработка | Git / GitHub, IntelliJ IDEA, PyCharm, Chrome DevTools |
 
----
+## Инженерный опыт
 
-### 🛠 Тестирование веб-приложений:
+С апреля 2023 года работаю инженером в **ООО «Аварит»**: выполняю расчёты и подбираю решения для систем электрического обогрева кровель, площадок, трубопроводов, резервуаров и полов. Готовлю техническую и тендерную документацию, работаю с большими объёмами данных, поставщиками и заказчиками.
 
-<div>
-  <a href="https://www.google.com/intl/ru_ru/chrome/" target="_blank"> <img src="https://d33wubrfki0l68.cloudfront.net/38b5c953a4667366685d55db55d057c86db1fc54/a0fdc/static/acae6b24d940347661ca901ea07f47c1/chrome-dev-logo-icon.png" alt="devtools" width="60" height="60"/></a>&nbsp
-  <a href="https://www.postman.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postman.png" alt="Postman" width="60" height="60"/></a>&nbsp
+Этот опыт помогает мне анализировать требования, проверять расчёты, учитывать ограничения и разбираться в причинах несоответствий. В AQA применяю тот же подход: проверяю бизнес-результат, управляю состоянием тестовых данных и собираю диагностику для разбора ошибок.
 
----
+Особенно интересны задачи тестирования веб-сервисов, а также программных решений для **энергетики и промышленности**.
 
+## Образование
 
-### 💾 Работа с данными:
+- **2025 — Авторский курс Геннадия Чурсова по автоматизации тестирования на Java.** Выпускная работа — автоматизация тестирования American Eagle. [Программа курса](https://topsycreed.github.io/free-java-automation-course/).
+- **2024 — Университет ИТМО, Санкт-Петербург.** Ручное и автоматизированное тестирование ПО на Python. Дополнительно — курсы по ручному и автоматизированному тестированию на Stepik.
+- **2023 — ООО «Национальный институт сертификации и оценки качества», Москва.** Повышение квалификации: «Анализ данных как основа цифровой трансформации процессов управления организацией». Изучал SQL, PostgreSQL и MySQL.
+- **2022 — Российский экономический университет имени Г. В. Плеханова.** Профессиональная переподготовка: «Процедурно-ориентированное программирование в прикладных задачах анализа данных в экономике». Диплом с правом ведения профессиональной деятельности в сфере программирования на Python для решения задач бизнес-анализа.
+- **2010 — Ивановский государственный энергетический университет имени В. И. Ленина.** Квалификация: менеджер.
+- **2009 — Ивановский государственный энергетический университет имени В. И. Ленина.** Квалификация: инженер.
 
-<div>
-   <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" alt="MySQL" width="60" height="60"/></a>&nbsp
-   <a href="https://www.postgresql.org/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" width="60" height="60"/></a>&nbsp
+## Контакты
 
----
-
-### ✏️ Работа с кодом:
-
-<div>
-  <a href="https://jetbrains.com/idea/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/intellij.png" alt="Intelij_IDEA" width="60" height="60"/></a>&nbsp
-  <a href="https://www.oracle.com/java/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/java.png" alt="Java" width="60" height="60"/></a>&nbsp
- <a href="https://junit.org/junit5/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/junit.png" alt="JUnit5" width="60" height="60"/></a>&nbsp
-  <a href="https://www.selenium.dev/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/selenium.png" alt="Selenium" width="60" height="60"/></a>&nbsp
-  <a href="https://github.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" alt="GitHub" width="60" height="60"/></a>&nbsp
-   <a href="https://docs.github.com/en/actions" target="_blank"> <img src="https://i.ytimg.com/vi/x3GCVNKEHMI/maxresdefault.jpg" alt="GitHub_Actions" width="100" height="60"/></a>&nbsp
-   <a href="https://docs.qameta.io/allure/" target="_blank"> <img src="https://allurereport.org/public/img/allure-report.svg?utm_source=chatgpt.com" alt="Allure_Report" width="60" height="60"/></a>&nbsp
-  <a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" alt="Git" width="60" height="60"/></a>&nbsp
-  <a href="https://gitscripts.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/bash.png" alt="Bash" width="60" height="60"/></a>&nbsp
-  <a href="https://www.jetbrains.com/pycharm/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/pycharm.png" alt="PyCharm" width="60" height="60"/></a>&nbsp
-  <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/visual_studio_code.png" alt="Visual_Studio_Code" width="60" height="60"/></a>&nbsp
-  <a href="https://www.spyder-ide.org/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/spyder.png" alt="Spyder" width="60" height="60"/></a>&nbsp
-  <a href="https://www.python.org/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" width="60" height="60"/></a>&nbsp
-  <a href="https://www.sublimetext.com/" target="_blank"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sublime_text.png" alt="Sublime_Text" width="60" height="60"/></a>&nbsp
-</div>
-
----
-
+- Telegram: [@Ilya_S_1985](https://t.me/Ilya_S_1985)
+- Email: [ISmeneger@yandex.ru](mailto:ISmeneger@yandex.ru)
+- Телефон: +7 (901) 286-40-78
+- Хабр Карьера: [career.habr.com/ismeneger](https://career.habr.com/ismeneger)
