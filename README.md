@@ -1,6 +1,6 @@
 # Илья Сидорычев | QA Automation Engineer — Java / Python
 
-Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — проекты UI/API-автоматизации American Eagle на Java и Python, а также отдельный репозиторий с ручным тестированием, тест-дизайном и QA-документацией. Настроены GitHub Actions и публикация Allure Report.
+Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — проекты UI/API-автоматизации American Eagle на Java и Python, отдельная коллекция API-тестов в **Postman с JavaScript-проверками**, а также репозиторий по ручному тестированию, тест-дизайну и QA-документации. Настроены GitHub Actions и публикация Allure Report для Java- и Python-проектов.
 
 Ищу первую коммерческую позицию **Junior QA / Automation QA Engineer**. Санкт-Петербург · рассматриваю удалённый, офисный и гибридный формат, а также стажировку.
 
@@ -36,6 +36,19 @@
 
 В обоих проектах есть тест-планы и описание ограничений внешнего сайта. Сценарии, заблокированные anti-bot-защитой, и известные особенности поведения отмечены отдельно. Результаты запусков доступны в CI и Allure. American Eagle — динамический production-сайт, поэтому повторные локальные и CI-запуски могут потребовать адаптации тестов к изменениям интерфейса, товаров или защиты.
 
+### [American Eagle — Postman API Testing](https://github.com/ISmeneger/American_Eagle_Postman_API_Tests)
+
+**Postman · JavaScript · REST API · OAuth 2.0 · Bearer Token · Postman Vault**
+
+Самостоятельный проект автоматизированного тестирования REST API American Eagle в Postman, дополняющий Java- и Python-автоматизацию.
+
+- **API и E2E:** 18 запросов в трёх наборах — Positive E2E, Negative Tests и Utilities. Проверка полного жизненного цикла гостевой корзины: получение токена, добавление товаров, изменение количества, проверка содержимого и удаление.
+- **Негативные сценарии:** отсутствие авторизации, неверный Bearer Token, некорректный SKU, отсутствие обязательного заголовка и недопустимое количество товара. Проверяются HTTP-статусы `400`, `401` и `422`.
+- **Автоматизация:** JavaScript-проверки ответов, динамические переменные Postman, общий pre-request script для автоматического обновления гостевого токена. Учётные данные хранятся локально в Postman Vault.
+- **Результаты:** подтверждённый локальный запуск Postman Collection Runner **19.10.2026 — 18 запросов, 124/124 успешных проверок, 0 ошибок**. В репозитории представлены коллекция, инструкция запуска, документация на русском и английском языках и скриншот результатов.
+
+**[Коллекция и документация](https://github.com/ISmeneger/American_Eagle_Postman_API_Tests)** · **[Результаты запуска](https://github.com/ISmeneger/American_Eagle_Postman_API_Tests/blob/main/images/postman-runner-results.png)**
+
 ### [American Eagle — QA Test Documentation](https://github.com/ISmeneger/QA_Test_Documentation)
 
 **Manual QA · Анализ требований · Тест-дизайн · Тест-кейсы · Чек-листы · Матрица трассируемости**
@@ -68,7 +81,7 @@
 |---|---|
 | Java AQA | Java, JUnit 5, REST Assured, Selenium, Gradle, AssertJ, Awaitility |
 | Python AQA | Python, Pytest, Requests, Selenium, fixtures, markers |
-| REST API | HTTP, Bearer token, позитивные и негативные проверки, E2E-сценарии, Postman |
+| REST API | HTTP, REST, JSON, Postman, JavaScript assertions, OAuth 2.0, Bearer Token, Postman Vault, позитивные и негативные проверки, E2E-сценарии |
 | Архитектура тестов | Page Object Model, Components, Steps, API clients / Controllers, DTO |
 | CI/CD и отчётность | GitHub Actions: запуск тестов, артефакты, Secrets; Allure Report, публикация отчётов через GitHub Pages |
 | Данные и документация | SQL: PostgreSQL / MySQL; тест-планы, тест-кейсы, баг-репорты |
