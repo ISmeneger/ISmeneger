@@ -1,6 +1,6 @@
 # Илья Сидорычев | QA Automation Engineer — Java / Python
 
-Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — проекты UI/API-автоматизации American Eagle на Java и Python, отдельная коллекция API-тестов в **Postman с JavaScript-проверками**, а также репозиторий по ручному тестированию, тест-дизайну и QA-документации. Настроены GitHub Actions и публикация Allure Report для Java- и Python-проектов.
+Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — проекты UI/API-автоматизации American Eagle на Java и Python, отдельная коллекция API-тестов в **Postman с JavaScript-проверками**, самостоятельный проект **SQL-тестирования на PostgreSQL и Docker**, а также репозиторий по ручному тестированию, тест-дизайну и QA-документации. Настроены GitHub Actions и публикация Allure Report для Java- и Python-проектов.
 
 Ищу первую коммерческую позицию **Junior QA / Automation QA Engineer**. Санкт-Петербург · рассматриваю удалённый, офисный и гибридный формат, а также стажировку.
 
@@ -61,6 +61,22 @@
 
 **[Документация и результаты](https://github.com/ISmeneger/QA_Test_Documentation)** · **[Матрица трассируемости](https://github.com/ISmeneger/QA_Test_Documentation/blob/main/coverage/REQUIREMENTS_TRACEABILITY_MATRIX.md)** · **[Аудит автоматизации](https://github.com/ISmeneger/QA_Test_Documentation/blob/main/automation/AUTOMATION_COVERAGE_AUDIT.md)**
 
+### [American Eagle — SQL & Database Testing](https://github.com/ISmeneger/American_Eagle_SQL_QA)
+
+**PostgreSQL 16 · SQL · Docker · DBeaver · PowerShell · Database Testing**
+
+Самостоятельный SQL-проект для практики тестирования баз данных на примере учебной модели интернет-магазина American Eagle. Подготовил локальную PostgreSQL-базу с синтетическими данными, воспроизводимыми SQL-проверками и автоматизированным негативным сценарием.
+
+- **База данных:** 8 связанных таблиц — товары, категории, складские остатки, покупатели, корзины и заказы. Проверка связей и целостности данных.
+- **SQL-тестирование:** 10 QA-сценариев с использованием `SELECT`, `JOIN`, `GROUP BY`, `HAVING`, агрегатных функций, подзапросов и CTE. Проверка стоимости корзин и заказов, доступности товаров и корректности данных.
+- **Негативное тестирование:** проверка ограничения `CHECK`, обработка ожидаемой ошибки PostgreSQL `SQLSTATE 23514`, контроль сохранности исходных данных и откат транзакций через `ROLLBACK`.
+- **Окружение:** PostgreSQL 16 в Docker, работа с базой через DBeaver, PowerShell-скрипт для развёртывания учебного стенда.
+- **Результаты:** 10 QA-сценариев дали ожидаемые результаты; контрольный запуск SQL-файлов выполнен успешно. В репозитории представлены SQL-код, документация и скриншоты DBeaver.
+
+Проект использует автономную учебную модель с синтетическими данными и не предполагает доступа к производственной базе American Eagle.
+
+**[SQL-запросы и инструкция запуска](https://github.com/ISmeneger/American_Eagle_SQL_QA)** · **[Результаты тестирования](https://github.com/ISmeneger/American_Eagle_SQL_QA/blob/main/docs/SQL_TESTING.md)**
+
 ## Учебная практика
 
 ### [ИТМО — DemoQA Python UI Automation](https://github.com/ISmeneger/ITMO_Automation_Demoqa)
@@ -84,7 +100,8 @@
 | REST API | HTTP, REST, JSON, Postman, JavaScript assertions, OAuth 2.0, Bearer Token, Postman Vault, позитивные и негативные проверки, E2E-сценарии |
 | Архитектура тестов | Page Object Model, Components, Steps, API clients / Controllers, DTO |
 | CI/CD и отчётность | GitHub Actions: запуск тестов, артефакты, Secrets; Allure Report, публикация отчётов через GitHub Pages |
-| Данные и документация | SQL: PostgreSQL / MySQL; тест-планы, тест-кейсы, баг-репорты |
+| SQL / Database Testing | PostgreSQL, MySQL, DBeaver, Docker; SELECT, JOIN, GROUP BY, HAVING, подзапросы, CTE, проверка целостности данных, транзакции, негативное тестирование |
+| QA-документация | Анализ требований, тест-планы, чек-листы, тест-кейсы, баг-репорты, матрицы трассируемости |
 | Разработка | Git / GitHub, IntelliJ IDEA, PyCharm, Chrome DevTools |
 
 ## Профессиональный опыт и переход в QA
