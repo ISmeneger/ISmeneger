@@ -1,6 +1,8 @@
 # Илья Сидорычев | QA Automation Engineer — Java / Python
 
-Разрабатываю **UI- и REST API-автотесты на Java и Python**. В портфолио — проекты UI/API-автоматизации American Eagle на Java и Python, отдельная коллекция API-тестов в **Postman с JavaScript-проверками**, самостоятельный проект **SQL-тестирования на PostgreSQL и Docker**, а также репозиторий по ручному тестированию, тест-дизайну и QA-документации. Настроены GitHub Actions и публикация Allure Report для Java- и Python-проектов.
+Разрабатываю **UI- и REST API-автотесты на Java и Python**. Работаю с Selenium, REST Assured, Pytest, Requests, SQL и PostgreSQL. Использую GitHub Actions для CI и Allure Report для анализа результатов тестирования.
+
+В портфолио — самостоятельные проекты автоматизации American Eagle на Java и Python, API-тестирование в Postman, SQL-проверки на PostgreSQL и Docker, а также ручное тестирование с QA-документацией.
 
 Ищу первую коммерческую позицию **Junior QA / Automation QA Engineer**. Санкт-Петербург · рассматриваю удалённый, офисный и гибридный формат, а также стажировку.
 
